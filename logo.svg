@@ -1,63 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" aria-label="Minimal plant icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" aria-label="Large plant with soil icon">
   <defs>
-    <linearGradient id="gLeaf" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#b9ffb8"/>
-      <stop offset="100%" stop-color="#18b86a"/>
+    <!-- Leaf gradient -->
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A8F0B0"/>
+      <stop offset="100%" stop-color="#2ECC71"/>
     </linearGradient>
 
-    <linearGradient id="gStem" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#47e08c"/>
-      <stop offset="100%" stop-color="#0f7b46"/>
+    <!-- Soil gradient -->
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B07A4A"/>
+      <stop offset="100%" stop-color="#6D4C2F"/>
     </linearGradient>
-
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="b"/>
-      <feOffset in="b" dx="0" dy="3" result="o"/>
-      <feColorMatrix in="o" type="matrix"
-        values="0 0 0 0 0
-                0 0 0 0 0
-                0 0 0 0 0
-                0 0 0 .25 0" result="s"/>
-      <feMerge>
-        <feMergeNode in="s"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <style>
-      @media (prefers-reduced-motion: reduce) { .sway { animation: none; } }
-
-      .sway { transform-origin: 150px 230px; animation: sway 3.6s ease-in-out infinite; }
-      @keyframes sway { 0%,100%{ transform: rotate(-2.5deg); } 50%{ transform: rotate(2.5deg); } }
-    </style>
   </defs>
 
-  <!-- Simple circle background (optional). Remove this circle if you want transparent background -->
-  <circle cx="150" cy="150" r="135" fill="#0b1220" opacity="0.08"/>
+  <!-- Soil -->
+  <path d="
+    M80 360
+    C160 310, 340 310, 420 360
+    L420 430
+    C340 460, 160 460, 80 430Z"
+    fill="url(#soil)"/>
 
-  <g class="sway" filter="url(#soft)">
-    <!-- Stem -->
-    <path d="M150 230 C150 210, 150 190, 150 165" stroke="url(#gStem)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Stem -->
+  <rect x="246" y="210" width="12" height="110" rx="6" fill="#2ECC71"/>
 
-    <!-- Left leaf (clean teardrop) -->
-    <path d="M150 175
-             C130 165, 112 172, 108 192
-             C104 212, 120 228, 140 224
-             C156 220, 162 198, 150 175Z"
-          fill="url(#gLeaf)"/>
+  <!-- Left leaf -->
+  <path d="
+    M252 210
+    C170 190, 130 230, 140 280
+    C150 330, 210 340, 248 300
+    C270 275, 275 235, 252 210Z"
+    fill="url(#leaf)"/>
 
-    <!-- Right leaf (clean teardrop) -->
-    <path d="M150 175
-             C170 165, 188 172, 192 192
-             C196 212, 180 228, 160 224
-             C144 220, 138 198, 150 175Z"
-          fill="url(#gLeaf)"/>
-
-    <!-- Small top sprout -->
-    <path d="M150 160
-             C140 154, 136 144, 142 136
-             C148 128, 160 128, 166 136
-             C172 144, 168 154, 150 160Z"
-          fill="url(#gLeaf)" opacity="0.95"/>
-  </g>
+  <!-- Right leaf -->
+  <path d="
+    M252 210
+    C334 190, 374 230, 364 280
+    C354 330, 294 340, 256 300
+    C234 275, 229 235, 252 210Z"
+    fill="url(#leaf)"/>
 </svg>

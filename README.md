@@ -1,6 +1,9 @@
+<!-- 🌈 Animated RGB TOP BORDER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff99,50:00ccff,100:ff00ff&height=160&section=header&animation=fadeIn" width="100%"/>
 
 <div align="center">
 
+<!-- Project Logo -->
 <img src="logo.svg" width="220" alt="SmartPlant Logo" />
 
 <br/><br/>
@@ -9,11 +12,11 @@
 🌱 SmartPlant Auto Irrigation System &nbsp; | &nbsp;
 🤖 IoT Smart Plant Care &nbsp; | &nbsp;
 🌐 Web Monitoring &nbsp; | &nbsp;
-💧 Automatic Smart Efficient
+💧 Automatic • Smart • Efficient
 </p>
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=750&lines=SmartPlant+Auto+Irrigation+System;IoT+Smart+Plant+Care;Web+Monitoring+%7C+Node.js+Powered;Automatic+%7C+Smart+%7C+Efficient"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=750&lines=SmartPlant+Auto+Irrigation+System;IoT+Smart+Plant+Care;Web+Monitoring+%7C+Node.js+Powered;Automatic+Smart+Efficient"
   alt="Typing SVG"
 />
 
@@ -27,78 +30,77 @@
 
 </div>
 
-
----
-
-<img src="https://user-images.githubusercontent.com/74038190/212284085-62d18c3c-fb7a-45b8-91c6-52b1c8c38c8b.gif" width="100%" />
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 🌟 Project Overview
 🌱 **SmartPlant Auto Irrigation System** is an **IoT-based smart agriculture project** that automatically waters plants based on real-time sensor data.
 
-✨ The system also includes **Web Monitoring**, allowing users to view plant conditions online.
+✨ The system includes **Web Monitoring**, allowing users to view plant conditions online in real time.
 
-### Sensors Used
+### 🌡️ Sensors Used
 - 🌱 Soil Moisture Sensor  
 - 🌡️ Temperature Sensor  
 - 💨 Humidity Sensor  
 
-📡 All data is sent to a **Node.js backend** and displayed on a **web dashboard**.
+📡 All sensor data is sent to a **Node.js backend** and displayed on a **web dashboard**.
 
----
-
-<img src="https://user-images.githubusercontent.com/74038190/212284095-0dc9d2b5-5a88-4a8c-bc4d-4c3f7f8e70d2.gif" width="100%" />
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## ⚙️ How It Works
-🔄 System flow:
+🔄 **System Flow:**
 
 1️⃣ Sensors read soil moisture, temperature & humidity  
 2️⃣ ESP32 processes sensor data  
 3️⃣ Data is sent to **Node.js server**  
-4️⃣ Data is displayed on **Web Monitoring Dashboard**  
+4️⃣ Data appears on **Web Monitoring Dashboard**  
 5️⃣ Soil dry → 💧 Pump ON  
 6️⃣ Soil wet → ❌ Pump OFF  
 
-🌿 Smart, automatic, and easy to monitor
+🌿 Fully automatic, smart, and easy to monitor.
 
----
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 🌐 Web Monitoring Features
-🖥️ The web monitoring system allows users to:
+🖥️ The web dashboard allows users to:
 
 - 📊 View **live sensor data**
 - 🌡️ Monitor temperature & humidity
 - 🌱 Check soil moisture status
-- 🚰 See pump ON/OFF status
-- 🌍 Access system from browser
+- 🚰 Monitor pump ON/OFF
+- 🌍 Access system from any browser
 
 💡 Built using **Node.js** and simple web technologies.
 
----
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 🧠 Sensors & Control
 | Component | Function |
-|--------|---------|
+|---------|----------|
 | 🌱 Soil Moisture Sensor | Detect soil water level |
-| 🌡️ Temperature Sensor | Detect heat |
+| 🌡️ Temperature Sensor | Detect temperature |
 | 💨 Humidity Sensor | Measure air humidity |
 | ⚡ Relay Module | Control water pump |
 | 🖥️ Node.js Server | Backend logic & API |
-| 🌐 Web Dashboard | Monitor data in real-time |
+| 🌐 Web Dashboard | Real-time monitoring |
 
----
-
-<img src="https://user-images.githubusercontent.com/74038190/212284077-1f2c0c78-610a-4c5c-b2c4-bdbd8ef0d6e2.gif" width="100%" />
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 🧰 Hardware Components
 - ESP32 / ESP8266  
 - Soil Moisture Sensor  
-- DHT11 / DHT22 (Temperature & Humidity)  
+- DHT11 / DHT22  
 - Relay Module  
 - Water Pump  
 - Breadboard & Jumper Wires  
 - Power Supply  
 
----
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 💻 Software & Technologies
 - Arduino IDE  
@@ -107,7 +109,8 @@
 - **Web Monitoring Dashboard**  
 - HTTP / API Communication  
 
----
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 🚀 Features
 ✔ Automatic irrigation  
@@ -117,28 +120,29 @@
 ✔ Web monitoring dashboard  
 ✔ Water-saving system  
 
----
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 🎯 Project Purpose
 🎓 Student learning & practice  
-🌱 Smart agriculture basics  
+🌱 Smart agriculture fundamentals  
 🧪 IoT + Node.js + Web integration  
-📚 Portfolio & mini project  
+📚 Portfolio & academic project  
 
----
+<!-- 🌈 RGB DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 ## 🔮 Future Improvements
 📱 Mobile-friendly dashboard  
 ☁️ Cloud database integration  
-📊 Real-time charts & graphs  
+📊 Real-time charts & analytics  
 🌦️ Weather-based irrigation  
 🌿 Multiple plant zones  
 
----
-
+<!-- 🌈 Animated RGB FOOTER -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff99,100:0077ff&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00ff,50:00ccff,100:00ff99&height=120&section=footer"/>
 
 🌱 **Made with ❤️ using IoT, Node.js & Web Monitoring**  
 **SmartPlant Auto Irrigation System**

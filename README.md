@@ -5,8 +5,15 @@
 
 <br/><br/>
 
+<p>
+🌱 SmartPlant Auto Irrigation System &nbsp; | &nbsp;
+🤖 IoT Smart Plant Care &nbsp; | &nbsp;
+🌐 Web Monitoring &nbsp; | &nbsp;
+💧 Automatic Smart Efficient
+</p>
+
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=750&lines=🌱+SmartPlant+Auto+Irrigation+System;🤖+IoT+Smart+Plant+Care;🌐+Web+Monitoring;💧+Automatic+Smart+Efficient"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=750&lines=SmartPlant+Auto+Irrigation+System;IoT+Smart+Plant+Care;Web+Monitoring+%7C+Node.js+Powered;Automatic+%7C+Smart+%7C+Efficient"
   alt="Typing SVG"
 />
 

@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Project Logo -->
-<img src="logo.svg" width="220" />
+<img src="logo.svg" />
 
 <br/><br/>
 
